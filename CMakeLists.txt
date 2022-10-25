@@ -3,9 +3,12 @@ project(NowThisOnePlease)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(BinarySearchFun)
+include_directories(Trees)
 
 add_executable(NowThisOnePlease
-        BinarySearchFun/BinarySearchTrees.cpp
-        BinarySearchFun/BinarySearchTrees.h
-        BinarySearchFun/BST_test.cpp)
+        Trees/BinarySearchTrees.cpp
+        Trees/BinarySearchTrees.h
+        Trees/BST_test.cpp
+        Trees/AVLTrees.cpp
+        Trees/AVLTrees.h
+        Trees/AVL_test.cpp)
