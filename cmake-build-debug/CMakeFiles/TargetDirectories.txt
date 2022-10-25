@@ -1,0 +1,3 @@
+/Users/carl/CLionProjects/NowThisOnePlease/cmake-build-debug/CMakeFiles/NowThisOnePlease.dir
+/Users/carl/CLionProjects/NowThisOnePlease/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/carl/CLionProjects/NowThisOnePlease/cmake-build-debug/CMakeFiles/rebuild_cache.dir
