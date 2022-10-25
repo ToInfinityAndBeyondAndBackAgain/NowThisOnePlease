@@ -4,7 +4,7 @@
 #include <string>
 
 #include "BinarySearchTrees.h"
-#include "avl-tree.h"
+#include "AVLTrees.h"
 
 using namespace std;
 
@@ -88,31 +88,6 @@ public:
     bool test6();
     bool test7();
     bool test8();
-};
-
-class AVLTreeTest {
-private:
-    bool test_result[6] = {0,0,0,0,0,0};
-    string test_description[6] = {
-            "Test1: Test single left rotation",
-            "Test2: Test single right rotation",
-            "Test3: Test double left-right rotation",
-            "Test4: Test double right-left rotation",
-            "Test5: Test multiple rotations on insert",
-            "Test6: Test multiple rotations on remove"
-    };
-
-public:
-    string getTestDescription(int test_num);
-    void runAllTests();
-    void printReport();
-
-    bool test1();
-    bool test2();
-    bool test3();
-    bool test4();
-    bool test5();
-    bool test6();
 };
 
 
